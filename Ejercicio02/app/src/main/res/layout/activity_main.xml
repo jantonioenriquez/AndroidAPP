@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imc"
+    tools:context="com.example.janto.ejercicio02.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/txtNombre"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/peso" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/txtPeso"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/estatura"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/txtEstatura"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejercicio"
+        android:id="@+id/chEjercicio"
+        android:layout_weight="0.21" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="@string/hombre"
+            android:id="@+id/rdHombre"
+            android:layout_gravity="center_horizontal" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/mujer"
+            android:id="@+id/rdMujer"
+            android:layout_gravity="center_horizontal" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton1"
+        android:id="@+id/btnCalcular"
+        android:background="#16C60B"
+        android:elevation="1dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_weight="0.58" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton2"
+        android:id="@+id/btnLimpiar"
+        android:background="#FD9817"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:layout_weight="0.19" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton3"
+        android:id="@+id/btnInformacion"
+        android:background="#143BCD"
+        android:textColor="#fff" />
+
+</LinearLayout>

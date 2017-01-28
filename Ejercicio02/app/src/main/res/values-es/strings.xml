@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculo de IMC</string>
+    <string name="nombre">Nombre de la persona</string>
+    <string name="estatura">Estatura en metros</string>
+    <string name="ejercicio">Realiza ejercicio diariamente</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+    <string name="peso">Peso en Kg</string>
+    <string name="boton1">Mostrar resultado</string>
+    <string name="boton2">Limpiar datos</string>
+    <string name="boton3">Información y contactos</string>
+    <string name="resultado">Datos de la persona</string>
+    <string name="bajoPeso">Bajo de Peso</string>
+    <string name="pesoNormal">Peso Normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="nom_app">Nombre de la plicación</string>
+    <string name="fecha_creacion">Fecha de creación</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="datos_persona">Datos de la Persona</string>
+    <string name="recomendacion">Recomendacion</string>
+    <string name="rec_imcbajo">aumentar el consumo de carbohidratos complejos (carbohidratos).
+        Son básicamente los alimentos en forma integral, como pan integral, avena,
+        muesli y arroz integral. Sin olvidarnos de las legumbres y frutas.</string>
+    <string name="rec_imcnormal">Continúa con la vigilancia de tu peso, controla tu estrés
+        porque puede ser causa de tensión,  alteraciones en el corazón y aumento de los niveles de triglicéridos.
+        Evita el consumo de alcohol porque las bebidas alcohólicas y el tabaco</string>
+    <string name="rec_imcalto">Acude a un Dietista-Nutricionista profesional. Te informará
+        de tu peso ideal y objetivo a alcanzar de acuerdo a sus características personales.
+        Es importante que acudas a las visitas de control programadas, lo que permitirá
+        no sólo modificar el contenido de la dieta cuando sea necesario, sino también
+        te servirá como apoyo,educarte nutricionalmente, etc .</string>
+</resources>
+
